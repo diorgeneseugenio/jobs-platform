@@ -1,0 +1,18 @@
+<section class="jobs-section">
+  <div class="job-box" *ngFor="let job of jobs">
+    <div class="job-header">
+      <b>{{ job.title }}</b>
+      <span class="job-company">{{ job.company }}</span>
+    </div>
+
+    <span class="job-description">{{ job.description }}</span>
+
+    <div class="job-tags">
+      <mat-chip-set aria-label="Job tags">
+        <mat-chip basicChipAttrName="job-tag" *ngFor="let tag of job.tags">
+          {{ tag }}
+        </mat-chip>
+      </mat-chip-set>
+    </div>
+  </div>
+</section>

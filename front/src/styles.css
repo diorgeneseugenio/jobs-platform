@@ -1,1 +1,24 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+  font-family: "Reddit Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h2 {
+  margin: 0px;
+}
+
+.mat-mdc-chip-action-label {
+  font-size: 10px !important;
+}
+
+.mat-mdc-standard-chip {
+  padding-left: 4px !important;
+  padding-right: 4px !important;
+}
+
+html,
+body {
+  height: 100%;
+}
